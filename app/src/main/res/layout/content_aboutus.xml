@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="225dp"
+                android:src="@drawable/logo1" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="Function"
+                android:layout_gravity="center"
+                android:textColor="@color/green"
+                android:paddingTop="20dp"
+                android:textSize="25dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/function"
+                android:paddingLeft="20dp"
+                android:textSize="20dp"
+                android:paddingTop="20dp"
+                android:paddingRight="20dp"
+                android:textColor="@color/black"
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingLeft="20dp"
+                android:paddingBottom="30dp"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:text="Team Members"
+                    android:layout_gravity="center"
+                    android:paddingTop="20dp"
+                    android:textColor="@color/green"
+                    android:paddingBottom="10dp"
+                    android:textSize="25dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Mohamed Mahmoud Hashim"
+                    android:paddingTop="10dp"
+                    android:textColor="@color/black"
+                    android:textSize="26dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Mohamed Zain El-Abeden"
+                    android:paddingTop="10dp"
+                    android:textColor="@color/black"
+                    android:textSize="26dp" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Ahmad Ehab Taha"
+                    android:paddingTop="10dp"
+                    android:textColor="@color/black"
+                    android:textSize="26dp" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Bassem Ehab Omar"
+                    android:paddingTop="10dp"
+                    android:textColor="@color/black"
+                    android:textSize="26dp" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Ahmed Shawky"
+                    android:paddingTop="10dp"
+                    android:textColor="@color/black"
+                    android:textSize="26dp" />
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

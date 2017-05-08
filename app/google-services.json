@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "569739192230",
+    "firebase_url": "https://electronics-projct-testing.firebaseio.com",
+    "project_id": "electronics-projct-testing",
+    "storage_bucket": "electronics-projct-testing.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:569739192230:android:4e4458de7d4465d6",
+        "android_client_info": {
+          "package_name": "com.mohamedhashim.iot"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "569739192230-jlo85ba7ipvls5hjf43561568ir1cr6j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAEx7ewxMURognTj-SlpehK5i_IenqbC1Q"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

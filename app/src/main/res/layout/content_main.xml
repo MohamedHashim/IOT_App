@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="20dp"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp"
+    android:paddingTop="20dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <!--<LinearLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:layout_centerHorizontal="true"-->
+        <!--android:layout_centerVertical="true"-->
+        <!--android:orientation="vertical">-->
+
+
+        <TextView
+            android:id="@+id/heading"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+
+        <!--<EditText-->
+            <!--android:id="@+id/input"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:hint="Enter your full name" />-->
+
+
+        <!--<Button-->
+            <!--android:id="@+id/submit"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_gravity="center_horizontal"-->
+            <!--android:text="Submit"-->
+            <!--android:onClick="submitHeading"/>-->
+        <com.skydoves.colorpickerview.ColorPickerView
+            android:id="@+id/colorPickerView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:src="@drawable/palette"
+            app:selector="@drawable/pointer"
+            android:layout_below="@+id/heading"
+            android:layout_marginTop="50dp"
+            android:layout_gravity="center_horizontal"
+            />
+    <!--</LinearLayout>-->
+
+</RelativeLayout>

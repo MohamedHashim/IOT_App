@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">IOT</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="function">Controlling the RGB Led through the ESP12-e wifi shield, Arduino Uno and Firebase</string>
+</resources>

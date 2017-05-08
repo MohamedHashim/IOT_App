@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="white">#FFFF</color>
+    <color name="black">#000</color>
+    <color name="button">#7EE8B7</color>
+    <color name="grey">#D0CCC7</color>
+    <color name="dark_grey">#ACA8A3</color>
+    <color name="red">#FC2C2C</color>
+    <color name="green">#00AE6D</color>
+    <color name="light_green">#7FD8B4</color>
+    <color name="blue">#00C3D5</color>
+    <color name="login_bg">#F4F3F2</color>
+    <color name="intro1_inner_bg">#00815D</color>
+    <color name="intro2_inner_bg">#CA6900</color>
+    <color name="intro3_inner_bg">#00567D</color>
+    <color name="intro1_bg">#00C089</color>
+    <color name="intro2_bg">#FF9200</color>
+    <color name="intro3_bg">#008AC6</color>
+
+    <color name="yellow">#f8da00</color>
+    <color name="light_blue">#005496</color>
+    <color name="light_blue_trans">#66005496</color>
+    <color name="light_blue_trans_home">#99005496</color>
+    <color name="dark_seperator">#22000000</color>
+    <color name="light_seperator">#22FFFFFF</color>
+    <color name="light_grey">#c7c7c7</color>
+
+    <color name="dark_blue">#002e6e</color>
+    <color name="blue_transparent">#2d005496</color>
+    <color name="sm_grey">#f0f5f9</color>
+    <color name="sm_white">#ffffff</color>
+    <color name="backlight_grey">#e8e8e8</color>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="seafoam">#ffc6f9e5</color>
+    <color name="chartreuse">#ffb6e9b5</color>
+    <color name="emerald">#ffa6d9b5</color>
+    <color name="bluegrass">#ff96c9b5</color>
+    <color name="turquoise">#ff86b9b5</color>
+    <color name="slate">#ff76a9b5</color>
+    <color name="bluedigital">#079bf4</color>
+    <color name="background">#343d46</color>
+    <array name="dot_colors">
+        <item>#03A9F4</item>
+        <item>#E65100</item>
+        <item>#FFBB00</item>
+    </array>
+</resources>
